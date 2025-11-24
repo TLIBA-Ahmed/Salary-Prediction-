@@ -117,7 +117,7 @@ def train_models(X_train, X_test, y_train, y_test, use_scaling=False):
         'Ridge Regression': Ridge(random_state=42),
         'Lasso Regression': Lasso(random_state=42, max_iter=10000),
         'Decision Tree': DecisionTreeRegressor(random_state=42),
-        'Random Forest': RandomForestRegressor(random_state=42, n_estimators=100),
+        'Random Forest': RandomForestRegressor(random_state=42, n_estimators=68),
         'Gradient Boosting': GradientBoostingRegressor(random_state=42)
     }
     
